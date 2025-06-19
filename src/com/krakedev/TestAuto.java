@@ -7,16 +7,16 @@ public class TestAuto {
 		Auto auto1;
 		Auto auto2;
 		
-		auto1 = new Auto();
-		auto2 = new Auto();
+		auto1 = new Auto("Audi r8",2025,28000);
+		auto2 = new Auto("La ferrari",2025,60000);
 		
-		auto1.setNombre("Audi r8");
+		/*auto1.setNombre("Audi r8");
 		auto1.setAnio(2025);
-		auto1.setPrecio(28000);
+		auto1.setPrecio(28000);*/
 		
-		auto2.setNombre("La ferrari");
+		/*auto2.setNombre("La ferrari");
 		auto2.setAnio(2025);
-		auto2.setPrecio(60000);
+		auto2.setPrecio(60000);*/
 		
 		System.out.println("Nombre: " + auto1.getNombre());
 		System.out.println("Año: " + auto1.getAnio());

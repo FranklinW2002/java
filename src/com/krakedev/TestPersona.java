@@ -6,6 +6,8 @@ public class TestPersona {
 		Persona p1 = new Persona();
 		Persona p2 = new Persona();
 		
+		Persona p3 = new Persona("Joel");
+		Persona p4 = new Persona("Andres",22,1.75);
 		
 		
 		p1.setNombre("Mario");
@@ -26,6 +28,18 @@ public class TestPersona {
 		System.out.println("Edad: " + p2.getEdad() );
 		System.out.println("Estatura: " + p2.getEstatura());
 
+		System.out.println("**************");
+		
+		System.out.println("Nombre: " + p3.getNombre() );
+		System.out.println("Edad: " + p3.getEdad() );
+		System.out.println("Estatura: " + p3.getEstatura());
+		
+		System.out.println("**************");
+		
+		System.out.println("Nombre: " + p4.getNombre() );
+		System.out.println("Edad: " + p4.getEdad() );
+		System.out.println("Estatura: " + p4.getEstatura());
+		
 	}
 
 }

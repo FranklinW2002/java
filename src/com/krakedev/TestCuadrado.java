@@ -4,9 +4,9 @@ public class TestCuadrado {
 
 	public static void main(String[] args) {
 		
-		Cuadrado c1 = new Cuadrado();
-		Cuadrado c2 = new Cuadrado();
-		Cuadrado c3 = new Cuadrado();
+		Cuadrado c1 = new Cuadrado(10);
+		Cuadrado c2 = new Cuadrado(5);
+		Cuadrado c3 = new Cuadrado(6);
 		
 		int area1;
 		int area2;
@@ -15,9 +15,9 @@ public class TestCuadrado {
 		int perimetro2;
 		int perimetro3;
 		
-		c1.setLado(10);;
+		/*c1.setLado(10);;
 		c2.setLado(5);
-		c3.setLado(6);
+		c3.setLado(6);*/
 		
 		perimetro1 = c1.calcularPerimetro();
 		perimetro2 = c2.calcularPerimetro();
