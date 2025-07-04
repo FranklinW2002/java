@@ -1,0 +1,4 @@
+2025-07-02 17:26:04.917 [main] INFO  com.krakedev.ejercicios.Admin - ingresa a agregar
+2025-07-02 17:28:56.745 [main] INFO  com.krakedev.ejercicios.Admin - mensaje de inf
+2025-07-02 17:28:56.747 [main] WARN  com.krakedev.ejercicios.Admin - mensaje de warn
+2025-07-02 17:28:56.747 [main] ERROR com.krakedev.ejercicios.Admin - mensaje de error
